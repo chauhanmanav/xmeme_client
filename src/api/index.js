@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const url = 'http://localhost:8081/memes';
+const url = 'https://xmemetrial.herokuapp.com/memes';
 
 export const fetchPosts = () => axios.get(url);
 export const createPost = (newPost) => axios.post(url, newPost); 
